@@ -9,6 +9,10 @@ html {
     width: 960px;
 }
 
+.small {
+  display: none;
+}
+
 /* header section */
 header {
   background-image: url('../images/glasses-bg.png');
@@ -177,6 +181,7 @@ footer {
   .slogan {
     width: 100%;
     margin-right: 0;
+    opacity: 0.8;
   }
 
   .slogan p {
@@ -215,5 +220,13 @@ footer {
   .info p {
     font-size: 0.77rem;
     padding-bottom: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .large {
+    display: none;
+  }
+  .small {
+    display: inline;
   }
 }
